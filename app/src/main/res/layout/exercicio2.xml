@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#8e24aa"
+        android:text="CABEÇALHO"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="150dp"
+        android:layout_width="match_parent"
+
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:text="1"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:layout_marginRight="12dp"
+            android:background="#fb8c00"
+            android:layout_weight="1"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:text="2"
+            android:gravity="center"
+            android:layout_height="150dp"
+            android:layout_marginRight="12dp"
+            android:textColor="@color/white"
+            android:background="#00acc1"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:text="3"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="#fdd835"
+            android:textColor="#212121"
+            android:layout_height="150dp"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:background="#546e7a"
+        android:text="RODAPÉ"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

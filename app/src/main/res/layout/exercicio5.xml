@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TOPO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="TOPO"
+            android:gravity="center"
+            android:textColor="#212121"
+            android:background="#1E88E5"/>
+
+        <!-- CORPO (Largura total, altura de 390dp) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="390dp"
+            android:orientation="horizontal">
+
+            <!-- Coluna Esquerda (Sua tag de 120dp corrigida para conter os blocos E) -->
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="E1"
+                    android:gravity="center"
+                    android:background="#E53935"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="E2"
+                    android:gravity="center"
+                    android:background="#F88C00"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:text="E3"
+                    android:gravity="center"
+                    android:background="#FDD835"/>
+            </LinearLayout>
+
+            <!-- Coluna Direita (Ocupa o resto do espaço horizontal) -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <!-- Bloco D1 -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:text="D1"
+                    android:gravity="center"
+                    android:background="#43A047"/>
+
+                <!-- Linha inferior da direita (D2 e D3) -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:text="D2"
+                        android:gravity="center"
+                        android:background="#8E24AA"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="D3"
+                        android:gravity="center"
+                        android:background="#00ACC1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- MENU INFERIOR (Ajustado de 1dp para 64dp de altura) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:text="M1"
+                android:gravity="center"
+                android:background="#546E7A"/>
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:text="M2"
+                android:gravity="center"
+                android:background="#37474F"/>
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:text="M3"
+                android:gravity="center"
+                android:background="#546E7A"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
