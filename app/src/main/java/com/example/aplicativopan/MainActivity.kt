@@ -18,11 +18,7 @@ class MainActivity : AppCompatActivity() {
         meuBotao.text = "Novo texto"
 
         meuBotao.setOnClickListener {
-            if (meuBotao.text == "Novo texto"){
-                meuBotao.text = "Cliquei"
-            }else{
-                meuBotao.text = "Cliquei de novo"
-            }
+            meuBotao.text = texto.text
         }
 
 
