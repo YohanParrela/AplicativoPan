@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Exercício 1: O Dobro do Número -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 1: O Dobro do Número"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite um número inteiro"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnEx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Dobro" />
+
+    <TextView
+        android:id="@+id/tvResultado1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Exercício 2: Idade em Dias -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 2: Idade em Dias"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite sua idade em anos"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnEx2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Dias" />
+
+    <TextView
+        android:id="@+id/tvResultado2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Exercício 3: Gorjeta (10%) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 3: Gorjeta (10%)"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor total da conta (ex: 80.50)"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnEx3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular Gorjeta" />
+
+    <TextView
+        android:id="@+id/tvResultado3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Exercício 4: Dólar para Real -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exercício 4: Dólar para Real (Câmbio fixo: 5.0)"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etEx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor em U$ Dólar"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnEx4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Converter Moeda" />
+
+    <TextView
+        android:id="@+id/tvResultado4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado aparecerá aqui"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
