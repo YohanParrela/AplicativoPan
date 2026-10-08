@@ -24,4 +24,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Aplicativo Pan"
 include(":app")
- 
+include(":Console")
